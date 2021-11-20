@@ -130,7 +130,7 @@ CORS_ALLOW_CREDENTIALS = True
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        'cookieapp.authenticate.JwtInCookieAuthentication',
+        'jwt_cookie.authenticate.JwtInCookieAuthentication',
     ),
 }
 
